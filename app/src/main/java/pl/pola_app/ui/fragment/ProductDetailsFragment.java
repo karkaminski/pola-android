@@ -249,7 +249,7 @@ public class ProductDetailsFragment extends DialogFragment {
         if (cardType.equals(resources.getString(R.string.type_grey))) {
             productInfoCard.setCardBackgroundColor(resources.getColor(R.color.card_type_grey_bk));
         } else {
-            productInfoCard.setCardBackgroundColor(resources.getColor(R.color.card_type_white_bk));
+            productInfoCard.setCardBackgroundColor(resources.getColor(R.color.card_type_bk));
         }
 
         if(reportType.equals(resources.getString(R.string.type_red))) {
@@ -257,7 +257,7 @@ public class ProductDetailsFragment extends DialogFragment {
             reportButton.setTextColor(resources.getColor(R.color.card_type_red_report_bt_text));
         } else {
             reportButton.setBackground(ContextCompat.getDrawable(getActivity(), R.drawable.button_border));
-            reportButton.setTextColor(resources.getColor(R.color.card_type_white_report_bt_text));
+            reportButton.setTextColor(resources.getColor(R.color.card_type_report_bt_text));
         }
     }
 

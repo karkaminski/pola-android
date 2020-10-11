@@ -33,7 +33,7 @@
         android:id="@+id/help_dialog_want_to_help_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/card_type_white_bk"
+        android:textColor="@color/card_type_bk"
         android:backgroundTint="#d8002f"
         android:text="@string/want_to_help_button_label" />
 

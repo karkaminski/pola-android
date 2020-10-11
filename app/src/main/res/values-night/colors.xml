@@ -7,17 +7,17 @@
     <color name="theme_web_primarydark">#e5e5e5</color>
     <color name="theme_web_accent">#000000</color>
 
-    <color name="card_type_white_bk">#fff</color>
-    <color name="card_type_white_score_bk">#cccccc</color>
-    <color name="card_type_white_report_bt_text">@color/pola_red</color>
-    <color name="card_type_white_bk_with_alpha">#afff</color>
+    <color name="card_type_bk">#000000</color>
+    <color name="card_type_score_bk">#cccccc</color>
+    <color name="card_type_report_bt_text">@color/pola_red</color>
+    <color name="card_type_bk_with_alpha">#afff</color>
 
     <color name="card_type_grey_bk">#e9e8e7</color>
     <color name="card_type_grey_score_bk">@color/pola_gray</color>
     <color name="card_type_red_report_bt_bk">@color/pola_red</color>
     <color name="card_type_red_report_bt_text">#fff</color>
     <color name="overlay">#5000</color>
-    <color name="menu_background">#000000</color>
+    <color name="background">#000000</color>
     <color name="menu_separator">#666</color>
 
     <color name="text_color">#FFFFFF</color>

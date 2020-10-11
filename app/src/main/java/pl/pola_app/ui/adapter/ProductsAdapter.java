@@ -127,8 +127,8 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.ViewHo
                 productCard.setCardBackgroundColor(resources.getColor(R.color.card_type_grey_bk));
                 plScore.setBackgroundColor(resources.getColor(R.color.card_type_grey_score_bk));
             } else {
-                productCard.setCardBackgroundColor(resources.getColor(R.color.card_type_white_bk));
-                plScore.setBackgroundColor(resources.getColor(R.color.card_type_white_score_bk));
+                productCard.setCardBackgroundColor(resources.getColor(R.color.card_type_bk));
+                plScore.setBackgroundColor(resources.getColor(R.color.card_type_score_bk));
             }
         }
 
