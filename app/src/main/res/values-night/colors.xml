@@ -17,11 +17,10 @@
     <color name="card_type_red_report_bt_bk">@color/pola_red</color>
     <color name="card_type_red_report_bt_text">#fff</color>
     <color name="overlay">#5000</color>
-    <color name="menu_background">#eee</color>
+    <color name="menu_background">#000000</color>
     <color name="menu_separator">#666</color>
 
-    <color name="text_color">#000000</color>
-    <color name="text_view_background">#FFFFFF</color>
-
+    <color name="text_color">#FFFFFF</color>
+    <color name="text_view_background">#373737</color>
 
 </resources>
