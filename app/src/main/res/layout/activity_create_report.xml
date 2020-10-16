@@ -89,7 +89,9 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="@string/description_hint"
-        android:inputType="textMultiLine" />
+        android:inputType="textMultiLine"
+        android:backgroundTint="@color/pola_gray"
+        android:textColorHint="@color/pola_gray"/>
 
     <Button
         android:id="@+id/send_button"
