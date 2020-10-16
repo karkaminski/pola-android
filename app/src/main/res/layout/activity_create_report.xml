@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#e7e7e7"
+    android:background="@color/background"
     android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -13,6 +13,7 @@
 
     <TextView
         android:id="@+id/report_textView"
+        android:textColor="@color/text_color"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -31,6 +32,7 @@
         android:layout_below="@+id/report_textView"
         android:layout_marginTop="24dp"
         android:fontFamily="sans-serif-light"
+        android:textColor="@color/text_color"
         android:text="@string/report_description"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -46,7 +48,7 @@
         android:fontFamily="sans-serif-light"
         android:text="@string/photos_report"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="#000" />
+        android:textColor="@color/text_color" />
 
 
     <LinearLayout
@@ -60,7 +62,7 @@
         android:layout_marginRight="2dp"
         android:layout_marginTop="8dp"
         android:padding="6dp"
-        android:background="#fff"
+        android:background="@color/text_view_background"
         android:orientation="horizontal"
         android:weightSum="3"/>
 
@@ -76,7 +78,7 @@
         android:fontFamily="sans-serif-light"
         android:text="@string/description_report"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="#000" />
+        android:textColor="@color/text_color" />
 
     <EditText
         android:id="@+id/descripton_editText"
